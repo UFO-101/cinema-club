@@ -290,3 +290,22 @@
     }
   }
   
+  .event-link {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-link:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
